@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 
-const password = require("../../mongourl.js");
-
 const MONGO_URL = process.env.MONGO_URL;
 
 mongoose.connection.once("open", () => {
